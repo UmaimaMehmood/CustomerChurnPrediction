@@ -1,0 +1,6 @@
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("abdullah0a/telecom-customer-churn-insights-for-analysis")
+
+print("Path to dataset files:", path)
